@@ -20,8 +20,9 @@ h1 + cite {
 }
 
 h2 {
+	text-align: center;
 	font-family: "pill-gothic-300mg",sans-serif;
-	font-size: 1em;
+	font-size: 1.25em;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 }
