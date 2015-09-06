@@ -20,11 +20,26 @@ h1 + cite {
 }
 
 h2 {
+	position: relative;
+	margin: 3em 0 1.5em;
 	text-align: center;
 	font-family: "pill-gothic-300mg",sans-serif;
 	font-size: 1.25em;
 	text-transform: uppercase;
 	letter-spacing: .1em;
+}
+h2:before,
+h2:after {
+	content: "";
+    vertical-align: top;
+    display: inline-block;
+    width: 41%;
+    height: 1px;
+    border-bottom: 1px solid #e4e1e1;
+    margin: 14px 2% 0 -55%;
+}
+h2:after {
+	margin: 14px -55% 0 2%;
 }
 
 p {
