@@ -1,0 +1,43 @@
+body {
+	background: #f8f5f5;
+	font: 400 18px/1.5 "maiola", serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
+	color: #6e6160;
+}
+
+h1 {
+	margin: 1em 0 .25em;
+	text-align: center;
+	font-size: 2em;
+}
+
+h1 + cite {
+	display: block;
+	text-align: center;
+	font-size: 80%;
+}
+
+h2 {
+	font-family: "pill-gothic-300mg",sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+p {
+	margin: 1.5em 0;
+}
+
+hr {
+	margin: 2em 0;
+	border: 0;
+	height: 1px;
+	background-color: #e4e1e1;
+}
+
+.book {
+	max-width: 660px;
+	margin: 0 auto;
+}
