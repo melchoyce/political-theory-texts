@@ -1,6 +1,6 @@
 body {
 	background: #f8f5f5;
-	font: 400 18px/1.5 "maiola", serif;
+	font: 400 20px/1.5 "maiola", serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-variant-ligatures: common-ligatures;
 	font-variant-ligatures: common-ligatures;
@@ -54,6 +54,6 @@ hr {
 }
 
 .book {
-	max-width: 660px;
+	max-width: 720px;
 	margin: 0 auto;
 }
